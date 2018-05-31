@@ -119,7 +119,12 @@ ol, ul {
 
 .square.right {
   border-left-style: solid;
-} 
+}
+
+.row{
+  display: flow-root;
+  grid-template: auto/ auto auto auto;
+}
 
 
 /*
